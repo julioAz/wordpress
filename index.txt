@@ -1,0 +1,4 @@
+AVADA:
+Admin da Smarttbot > Avada > Theme Options > Performance > Reset Fusion Caches
+Reset Fusion Caches
+Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the uploads/fusion-styles and uploads/fusion-scripts folders.
