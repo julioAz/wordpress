@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            font: normal 18pt Arial;
+            font-weight: bold;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div#result {
+            font: normal 16pt Comic Sans;
+            font-weight: bold;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Media de valores</h1>
+    <input type="number" name="nun1" id="nun1">
+    <input type="number" name="nun2" id="nun2">
+    <input type="number" name="nun3" id="nun3">
+    <input type="button" id="media" value="media" onclick="media()">
+    <div id="result">Resultado</div>
+    <script>
+        function media(){
+        var n1 = window.document.getElementById('nun1')
+        var n2 = window.document.getElementById('nun2')
+        var n3 = window.document.getElementById('nun3')
+        var m1 = Number(nun1.value)
+        var m2 = Number(nun2.value)
+        var m3 = Number(nun3.value)
+        var media = (m1 + m2 + m3)/3
+        result.innerHTML = `A média de ${m1}, ${m2} e ${m3} é ${media}`
+    }
+    </script>
+</body>
+</html>
